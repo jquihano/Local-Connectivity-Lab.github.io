@@ -4,7 +4,12 @@
 
 <head>
   <!-- probably on all pages -->
-
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.css">
   <script src="bootstrap-5.0.1-dist/js/bootstrap.bundle.js"></script>
   <link rel="stylesheet" href="style.css">
@@ -38,21 +43,21 @@
             <a class="nav-link" href="aboutUs.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://docs.seattlecommunitynetwork.org/">Learn More</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="ourSites.html">Connect</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://coverage.seattlecommunitynetwork.org/">Map</a>
+            <a class="nav-link" href="https://coverage.seattlecommunitynetwork.org/" target="_blank">Map</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="donate.html">Donate</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://docs.seattlecommunitynetwork.org/community/tech-help.html">Get Help</a>
-            <!--dropdown-->
-          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+            <div class="dropdown-menu">
+              <a class="nav-link" target="_blank" href="https://docs.seattlecommunitynetwork.org/" >Community Hub</a>
+                <a class="nav-link" href="https://docs.seattlecommunitynetwork.org/community/tech-help.html" target="_blank">Get Help</a>
+            </div>
+        </li>
         </ul>
       </div>
     </div>
@@ -194,12 +199,12 @@
       institutions help each other in a collaborative and community-minded way.
       <br><br>
       To learn more, visit our
-      <a href="https://docs.seattlecommunitynetwork.org">docs site</a>,
-      read our most recent <a href="https://tinyurl.com/scn-blog-2">blog post</a>,
+      <a target="_blank" href="https://docs.seattlecommunitynetwork.org">docs site</a>,
+      read our most recent <a target="_blank" href="https://tinyurl.com/scn-blog-2">blog post</a>,
       or follow us on social media @SeattleCommNet on Facebook, Twitter, LinkedIn,
       and Instagram! Refer to our
-      <a href="https://tinyurl.com/SCNbrochureSPS5-4-22">brochure</a> or
-      <a href="https://tinyurl.com/SCNflyerSPS5-4-22">flyer</a>
+      <a target="_blank" href="https://tinyurl.com/SCNbrochureSPS5-4-22">brochure</a> or
+      <a target="_blank" href="https://tinyurl.com/SCNflyerSPS5-4-22">flyer</a>
       for a printable version of our materials!
     </p>
     <button onclick="location.href='https://docs.seattlecommunitynetwork.org/'" type="button" id="learn-more-button">
@@ -213,7 +218,7 @@
     <!--take breaks out later -->
     <br><br>
     <div class="flex-container">
-      <button onclick="location.href='https://docs.seattlecommunitynetwork.org/community/join.html'" type="button"
+      <button target="_blank" onclick="location.href='https://docs.seattlecommunitynetwork.org/community/join.html'" type="button"
         id="volunteer-learn-button">
         Volunteer & Learn &rarr;
       </button>
